@@ -2,7 +2,7 @@ import os
 
 import telebot
 
-VINI = "5090152545:AAEu4gt5cgPwDi7VRFVzJmZZBPyzskzOn2M"
+VINI = "5297823866:AAHxnBPcentPtLEz9NlGEyYmL_S-VALfx7o"
 
 bot = telebot.TeleBot(VINI)
 

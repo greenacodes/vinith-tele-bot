@@ -20,7 +20,7 @@ def greet(message):
     bot.reply_to(message, "I was made on 25 JAN 2022")
 
 
-# @bot.message_handler(commands=['❤'])
+# @bot.message_handler(commands=['laddu'])
 def greet(message):
     bot.reply_to(message, "Laddu😘")
 
@@ -32,7 +32,7 @@ def greet(message):
 
 @bot.message_handler(commands=['likes'])
 def greet(message):
-    bot.reply_to(message, "Coding , Hacking")
+    bot.reply_to(message, " I ❤ Coding")
 
 
 @bot.message_handler(commands=['education'])

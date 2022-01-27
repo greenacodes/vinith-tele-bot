@@ -1,7 +1,7 @@
 import os
 import telebot
 
-VINI = os.getenv('VINI')
+VINI = "5096203460:AAHqA0-BLCIv9IimbzASaXRJRaV9eozNAWw"
 bot = telebot.TeleBot(VINI)
 
 

@@ -5,49 +5,57 @@ VINI = "5096203460:AAHqA0-BLCIv9IimbzASaXRJRaV9eozNAWw"
 bot = telebot.TeleBot(VINI)
 
 
-@bot.message_handler(commands=['command1'])
+@bot.message_handler(commands=['start'])
 def greet(message):
     bot.reply_to(message, "HEY iam a bot...")
 
 
-@bot.message_handler(commands=['command2'])
+@bot.message_handler(commands=['hello'])
 def greet(message):
     bot.reply_to(message, "hy there!")
 
 
-@bot.message_handler(commands=['command3'])
+@bot.message_handler(commands=['Age'])
 def greet(message):
-    bot.reply_to(message, "Vinith is 17 years old")
+    bot.reply_to(message, "I was made on 25 JAN 2022")
 
 
-@bot.message_handler(commands=['command4'])
+# @bot.message_handler(commands=['❤'])
 def greet(message):
     bot.reply_to(message, "Laddu😘")
 
 
-@bot.message_handler(commands=['command5'])
+@bot.message_handler(commands=['Name'])
 def greet(message):
     bot.reply_to(message, "Programmer")
 
 
-@bot.message_handler(commands=['command6'])
+@bot.message_handler(commands=['Likes'])
 def greet(message):
     bot.reply_to(message, "Coding , Hacking")
 
 
-@bot.message_handler(commands=['command7'])
+@bot.message_handler(commands=['Education'])
 def greet(message):
-    bot.reply_to(message, "diploma in CSE at warangal")
+    bot.reply_to(message, "Diploma in CSE at warangal")
 
 
-@bot.message_handler(commands=['command8'])
+@bot.message_handler(commands=['Love'])
 def greet(message):
     bot.reply_to(message, "Yes, I ALWAYS LOVE YOU ❤")
 
 
-@bot.message_handler(commands=['command9'])
+
+    
+@bot.message_handler(commands=['Instagram'])
 def greet(message):
-    bot.reply_to(message, "A girl who can create a tele bot")
+    bot.reply_to(message, "http://www.instagram.com/vinithreddybanda/")
+    
+@bot.message_handler(commands=['Linkedin'])
+def greet(message):
+    bot.reply_to(message, "")
+    
+ 
 
 
 bot.polling()

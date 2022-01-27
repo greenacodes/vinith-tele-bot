@@ -53,7 +53,7 @@ def greet(message):
     
 @bot.message_handler(commands=['Linkedin'])
 def greet(message):
-    bot.reply_to(message, "")
+    bot.reply_to(message, "https://www.linkedin.com/in/vinith-reddy-banda-4aa52122a")
     
  
 

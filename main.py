@@ -1,6 +1,6 @@
 import os
 import telebot
-
+from keep_alive import keep_alive
 VINI = "5096203460:AAHqA0-BLCIv9IimbzASaXRJRaV9eozNAWw"
 bot = telebot.TeleBot(VINI)
 
@@ -56,6 +56,6 @@ def greet(message):
     bot.reply_to(message, "https://www.linkedin.com/in/vinith-reddy-banda-4aa52122a")
     
  
-
+keep_alive()
 
 bot.polling()
